@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containar {
+    max-width: 95%;
+    margin: auto;
+
+}
+
+.icons i {
+    padding: 5px;
+    color: #6610f2;
+
+
+}
+
+
+.NavTop {
+    /* to put element besides (Div.. etc) */
+    display: flex;
+    /* to give space between elements */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.NavTop h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lists li {
+    /* to put element besides Childs */
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+/* effect in select */
+.lists li:hover {
+    background-color: #6610f2;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+a {
+    /* to remove underline */
+    text-decoration: none;
+    color: #000;
+
+}
+
+.slider img {
+    width: 100%;
+    height: 600px;
+    padding-left: 20px;
+    padding-left: 40px;
+    margin-bottom: -4px;
+}
+
+/* h1{
+    margin-left: 8px;
+} */
+
+.cards {
+    width: 100hw;
+    display: flex;
+    padding-top: 40px;
+    /* to give space between elements */
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+
+}
+
+
+
+.card {
+    width: 50vh;
+    height: 150px;
+
+}
+
+.card img {
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+.Card h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card header {
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.card1 {
+    width: 50vh;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.card1 img {
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.card1 header {
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.clocks {
+
+    display: flex;
+    /* to give space between elements */
+    justify-content: space-between;
+    margin: 40px;
+
+
+}
+
+.clock {
+    background-color: beige;
+    display: inline-block;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.clock2 {
+    background-color: beige;
+    display: inline-block;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-right: 80px;
+
+}
+
+.describtion {
+    display: inline-block;
+}
+
+.describtion h1 {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.describtion p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.describtion button {
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color: #6610f2;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.watches {
+    margin-top: 100px;
+    background-color: beige;
+    width: 100%;
+    height: 500px;
+}
+
+.banner button {
+    margin-left: 80px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(4, 148, 4);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: large;
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+
+.presention {
+    margin-top: 30px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+
+
+}
+
+.sa3a {
+    background-color: white;
+    width: 350px;
+    text-align: center;
+}
+
+
+.pic {
+    /* الصور ستشغل نفس العرض بشكل متساوي */
+    max-width: 30%;
+    /* لضمان عدم تجاوز الصور لحدود المحتوى */
+    background-color: white;
+
+
+
+}
+
+.MensWatch {
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.MensWatch h4 {
+    padding-bottom: 10px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+
+.Card {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.Card h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 130%;
+
+}
+
+.Card i {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.Card i:hover {
+    color: #6610f2;
+}
+
+.Card h2 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+.displaycontact{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contactus {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.left {
+    flex: 1;
+    width:100%;
+}
+.normalinput{
+    display: block;
+    margin-bottom: 10px;
+    width: 100vh;
+    padding-right: 20px;
+    height: 60px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 5px 2px 7px    #d3cfcf;
+    font-size: larger;
+
+}
+.message{
+    display: block;
+    margin-bottom: 10px;
+    width: 100vh;
+    padding-right: 20px;
+    height: 120px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 5px 2px 7px    #d3cfcf;
+    font-size: larger;
+}
+.send{
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 5px 2px 7px    #d3cfcf;
+    font-size: larger;
+    background-color: #6610f2;
+    color: white;
+}
+.send:hover{
+    background-color:rgb(64, 8, 116);
+}
+.right {
+    flex: 1;
+    width: 50%;
+    margin-left: 50px;
+
+}
+.right img{
+width: 100%; 
+height: 450px;   
+display: block;
+}
+
+.displaytest{
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.testimonial{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 280px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px #b6b5b5;
+    justify-content: space-around;
+    border: solid 1px rgb(167, 165, 163);
+}
+.descclientleft{
+    padding-top: 50px;
+    padding-left: 90px;
+    flex-grow: 1; /* يمتد ليملأ المساحة المتاحة */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MoroJink{
+    color: #6610f2;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.Customer{
+    color: #008512;
+    font-size: medium;
+    font-weight: bold;
+}
+.descclientright{
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6610f2;
+}
+.describtioncontent{
+    padding-top: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    font-size: large;
+    padding-right: 0px;
+}
+.imgcli{
+border-radius: 50%;
+border-color: #008512;
+border: solid 5px #008512;
+width: 200px;
+height: 150px;
+display: inline-block;
+align-items: center;
+margin-left: 0px;
+}
