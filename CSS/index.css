@@ -26,9 +26,11 @@
     align-items: center;
     padding: 15px;
 }
-.NavTop h1{
+
+.NavTop h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .lists li {
     /* to put element besides Childs */
     display: inline-block;
@@ -89,9 +91,11 @@ a {
     margin-bottom: 30px;
     padding-right: 20px;
 }
-.Card h2{
+
+.Card h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .card header {
     font-weight: bold;
     padding-left: 20px;
@@ -272,28 +276,31 @@ a {
 }
 
 
-.displaycontact{
+.displaycontact {
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: bolder;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 120px;
     margin-right: 120px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 .contactus {
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
+
 }
 
 .left {
     flex: 1;
-    width:100%;
+    width: 100%;
 }
-.normalinput{
+
+.normalinput {
     display: block;
     margin-bottom: 10px;
     width: 100vh;
@@ -302,11 +309,12 @@ a {
     padding-left: 10px;
     text-transform: capitalize;
     border-radius: 5px;
-    box-shadow: 5px 2px 7px    #d3cfcf;
+    box-shadow: 5px 2px 7px #d3cfcf;
     font-size: larger;
 
 }
-.message{
+
+.message {
     display: block;
     margin-bottom: 10px;
     width: 100vh;
@@ -315,10 +323,11 @@ a {
     padding-left: 10px;
     text-transform: capitalize;
     border-radius: 5px;
-    box-shadow: 5px 2px 7px    #d3cfcf;
+    box-shadow: 5px 2px 7px #d3cfcf;
     font-size: larger;
 }
-.send{
+
+.send {
     display: block;
     margin-bottom: 10px;
     width: 150px;
@@ -327,36 +336,41 @@ a {
     padding-left: 10px;
     text-transform: uppercase;
     border-radius: 5px;
-    box-shadow: 5px 2px 7px    #d3cfcf;
+    box-shadow: 5px 2px 7px #d3cfcf;
     font-size: larger;
     background-color: #6610f2;
     color: white;
+    cursor: pointer;
 }
-.send:hover{
-    background-color:rgb(64, 8, 116);
+
+.send:hover {
+    background-color: rgb(64, 8, 116);
 }
+
 .right {
     flex: 1;
     width: 50%;
     margin-left: 50px;
 
 }
-.right img{
-width: 100%; 
-height: 450px;   
-display: block;
+
+.right img {
+    width: 100%;
+    height: 450px;
+    display: block;
 }
 
-.displaytest{
+.displaytest {
     text-transform: capitalize;
     font-size: xx-large;
     font-weight: bolder;
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
+
 }
-.testimonial{
+
+.testimonial {
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
@@ -368,24 +382,29 @@ display: block;
     justify-content: space-around;
     border: solid 1px rgb(167, 165, 163);
 }
-.descclientleft{
+
+.descclientleft {
     padding-top: 50px;
     padding-left: 90px;
-    flex-grow: 1; /* يمتد ليملأ المساحة المتاحة */
+    flex-grow: 1;
+    /* يمتد ليملأ المساحة المتاحة */
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
 }
-.MoroJink{
+
+.MoroJink {
     color: #6610f2;
     font-size: x-large;
     font-weight: bolder;
 }
-.Customer{
+
+.Customer {
     color: #008512;
     font-size: medium;
     font-weight: bold;
 }
-.descclientright{
+
+.descclientright {
     padding-top: 20px;
     padding-right: 40px;
     font-size: 70px;
@@ -393,20 +412,210 @@ display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #6610f2;
 }
-.describtioncontent{
+
+.describtioncontent {
     padding-top: 20px;
     line-height: 180%;
     text-transform: capitalize;
     font-size: large;
     padding-right: 0px;
 }
-.imgcli{
-border-radius: 50%;
-border-color: #008512;
-border: solid 5px #008512;
-width: 200px;
-height: 150px;
-display: inline-block;
-align-items: center;
-margin-left: 0px;
+
+.imgcli {
+    border-radius: 50%;
+    border-color: #008512;
+    border: solid 5px #008512;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 0px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #000;
+    color: #FFFF;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+
+}
+
+footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    color: #FFFF;
+}
+
+footer header {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Colums {
+    display: flex;
+    flex: 1;
+}
+
+.col1 {
+    display: block;
+    margin-left: 40px;
+    max-width: 150px;
+}
+
+.col1details {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.col1details p {
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+
+.imglocation {
+    height: 25px;
+    width: 18px;
+}
+
+.imgphone {
+    height: 26px;
+    width: 13px;
+}
+
+.imgmail {
+    margin-top: 5px;
+    height: 18px;
+    width: 22px;
+}
+
+.AboutShop {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.col2 {
+    display: block;
+
+    margin-left: 150px;
+    max-width: 200px;
+    text-overflow: initial;
+}
+
+.col2details p {
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.col3 {
+    margin-left: 100px;
+    max-width: 250px;
+    text-overflow: initial;
+    display: block;
+
+}
+
+.col3details p {
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.col3details img {
+    background-color: #FFF;
+    height: 70px;
+    width: 70px;
+    zoom: 100%;
+    cursor: pointer;
+}
+
+.col4 {
+    margin-left: 80px;
+    max-width: 300px;
+    display: block;
+
+}
+
+.col4details p {
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+
+}
+
+.inmail {
+    height: 32px;
+    width: 280px;
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+
+.btnsub {
+    margin-top: 20px;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #6f42c1;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-right: 110px;
+    font-size: large;
+
+}
+
+.btnsub:hover {
+    background-color: #6610f2;
+
+}
+
+.col4icons img {
+
+    margin-top: 30px;
+    margin-right: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.readmore {
+    cursor: pointer;
+}
+
+.readmore:hover {
+    background-color: #321a5e;
 }
