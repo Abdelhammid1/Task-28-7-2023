@@ -13,6 +13,7 @@
 .icons i {
     padding: 5px;
     color: #6610f2;
+    cursor: pointer;
 
 
 }
@@ -243,7 +244,6 @@ a {
 
 .Cards {
     display: flex;
-    justify-content: space-between;
     background-color: #F8F8F8;
     padding: 20px;
 }
@@ -253,6 +253,7 @@ a {
     margin-top: 20px;
     padding-top: 10px;
     margin-bottom: 20px;
+    width: 25%;
 
 }
 
@@ -267,6 +268,8 @@ a {
 .Card i {
     font-size: 42px;
     margin-bottom: 20px;
+    cursor: pointer;
+
 }
 
 .Card i:hover {
@@ -284,10 +287,10 @@ a {
     font-size: xx-large;
     font-weight: bolder;
     margin-top: 100px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-bottom: 50px;
+position: relative;
+left: 50px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .contactus {
