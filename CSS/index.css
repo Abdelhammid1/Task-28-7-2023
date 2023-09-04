@@ -25,6 +25,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    background-color: white;
+width: 100%;
+position: fixed;
 }
 
 .NavTop h1 {
@@ -418,18 +421,18 @@ a {
     line-height: 180%;
     text-transform: capitalize;
     font-size: large;
-    padding-right: 0px;
 }
 
 .imgcli {
     border-radius: 50%;
     border-color: #008512;
     border: solid 5px #008512;
-    width: 200px;
+    width: 170px;
     height: 150px;
-    display: inline-block;
-    align-items: center;
-    margin-left: 0px;
+    position: relative;
+    top: -185px;
+    right: 175px;
+
 }
 
 footer {
